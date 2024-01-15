@@ -1,18 +1,11 @@
 [tool.poetry]
-name = "pysparkenvir"
+name = "auditd_ripper"
 version = "0.1.0"
 description = ""
 authors = ["infosecB <infosecB@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
-pyspark = "^3.5.0"
-pandas = "^2.1.4"
-pyarrow = "^14.0.2"
-grpcio = "^1.60.0"
-google-api-python-client = "^2.113.0"
-grpcio-status = "^1.60.0"
 
 
 [tool.poetry.group.dev.dependencies]
