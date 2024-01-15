@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "auditd-ripper"
+version = "0.1.0"
+description = ""
+authors = ["infosecB <infosecB@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+
+[tool.poetry.scripts]
+auditdr = 'auditd_ripper.main:main'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
