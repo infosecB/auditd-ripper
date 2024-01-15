@@ -27,7 +27,7 @@ def parse_logs(logs: List) -> List:
                 v = i.split("=")[1]
                 d[k] = v
         if old_log["msg"] == d["msg"]:
-            d = d | old_log
+            d = {**d, **old_log}
             old_log = d
         else:
             if old_log["msg"] != "none":
