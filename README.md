@@ -1,5 +1,5 @@
 # Auditd Ripper
-Python CLI for normalizing, aggregrating, and decoding auditd logs.
+A Python CLI app that normalizes, aggregates, decodes, and exports auditd logs to a JSON file.
 
 Example use:
 ```
